@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="wt">10dp</dimen>
+    <dimen name="ht">14dp</dimen>
+    <dimen name="r_img_w">0dp</dimen>
+</resources>

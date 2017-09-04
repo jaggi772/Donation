@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DonationApp</string>
+    <string name="internet_connect">No internet connection.</string>
+    <string name="enter_username">Enter valid Email</string>
+    <string name="enter_password">Enter Password.</string>
+    <string name="logiing_in">Loging in Please wait...</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="enter_first_name">Enter first name.</string>
+    <string name="enter_last_name">Enter last name.</string>
+    <string name="enter_valid_pasword">Enter valid password</string>
+</resources>

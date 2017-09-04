@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/adv_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="50dp"
+            android:background="@drawable/bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SELECT FUND"
+                android:textColor="#436b92"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fund_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:layout_margin="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/abc_ic_clear_material" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
