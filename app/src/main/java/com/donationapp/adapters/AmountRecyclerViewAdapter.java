@@ -15,6 +15,12 @@ public class AmountRecyclerViewAdapter extends TrackSelectionAdapter<AmountRecyc
     private LayoutInflater mInflater;
     private ItemClickListener mClickListener;
 
+
+
+
+
+
+
     // data is passed into the constructor
     public AmountRecyclerViewAdapter(Context context, String[] data) {
         this.mInflater = LayoutInflater.from(context);
